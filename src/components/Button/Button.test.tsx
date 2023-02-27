@@ -4,9 +4,11 @@ import Button from "./Button";
 describe("Given a Button component", () => {
   describe("When it is rendered", () => {
     test("Then it should show a button", () => {
-      render(<Button text={""} />);
+      const buttonText = "Sign up";
 
-      const expectedButton = screen.getByRole("button");
+      render(<Button text={buttonText} />);
+
+      const expectedButton = screen.getByRole("button", { name: buttonText });
 
       expect(expectedButton).toBeInTheDocument();
     });
