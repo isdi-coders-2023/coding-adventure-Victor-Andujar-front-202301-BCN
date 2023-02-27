@@ -1,4 +1,4 @@
-const Form = (): JSX.Element => {
+const FormRegister = (): JSX.Element => {
   return (
     <form className="register">
       <label htmlFor="Email" className="register__text">
@@ -18,4 +18,4 @@ const Form = (): JSX.Element => {
   );
 };
 
-export default Form;
+export default FormRegister;

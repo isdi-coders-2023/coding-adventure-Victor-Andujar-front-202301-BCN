@@ -1,7 +1,7 @@
-import Form from "./components/Form/Form";
+import FormRegister from "./components/FormRegister/FormRegister";
 
 const App = (): JSX.Element => {
-  return <Form />;
+  return <FormRegister />;
 };
 
 export default App;
