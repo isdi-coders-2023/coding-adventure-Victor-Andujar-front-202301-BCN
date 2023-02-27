@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import "@fontsource/saira-stencil-one";
 
 const ButtonStyled = styled.button`
   width: 20.1875rem;
@@ -9,6 +8,15 @@ const ButtonStyled = styled.button`
   border: none;
   border-radius: 10px;
   background-color: #cccf18;
+
+  :disabled {
+    opacity: 0.57;
+  }
+
+  @media (min-width: 800px) {
+    width: 20rem;
+    height: 3.5625rem;
+  }
 `;
 
 export default ButtonStyled;

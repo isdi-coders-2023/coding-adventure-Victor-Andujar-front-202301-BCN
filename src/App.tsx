@@ -1,7 +1,5 @@
-import Button from "./components/Button/Button";
-
 const App = (): JSX.Element => {
-  return <Button />;
+  return <div></div>;
 };
 
 export default App;
