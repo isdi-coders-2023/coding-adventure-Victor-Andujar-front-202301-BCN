@@ -36,6 +36,13 @@ button{
 
 }
 
+:root {
+  --main-color-button: #cccf18;
+  --main-copacity-button-disabled: 57%;
+  --main-font: "Saira Stencil One", sans-serif;
+  --background-color: #1e1e1e;
+}
+
 a, :visited, :active{
 text-decoration: none;
 }
