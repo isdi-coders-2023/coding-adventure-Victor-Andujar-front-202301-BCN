@@ -1,5 +1,7 @@
+import ButtonStyled from "./ButtonStyled";
+
 const Button = (): JSX.Element => {
-  return <button>Sign up</button>;
+  return <ButtonStyled>Sign up</ButtonStyled>;
 };
 
 export default Button;
