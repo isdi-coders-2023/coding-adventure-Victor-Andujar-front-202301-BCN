@@ -1,7 +1,7 @@
-import Button from "./components/Button/Button";
+import Form from "./components/Form/Form";
 
 const App = (): JSX.Element => {
-  return <Button />;
+  return <Form />;
 };
 
 export default App;
