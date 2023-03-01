@@ -1,7 +1,5 @@
-import React from "react";
-
 const App = (): JSX.Element => {
-  return <p>Hello Developers!</p>;
+  return <div></div>;
 };
 
 export default App;
