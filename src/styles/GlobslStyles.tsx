@@ -8,8 +8,8 @@ const GlobalStyles = createGlobalStyle`
 
 body {
   padding: 30px;
-  background-color: #fff;
-  font-family: "Orbitron";
+  background-color: var(--background-color);
+  font-family: var(--secondary-font);
   width: 100%;
   min-height: 100vh;
   font-size: 62.5%;
@@ -40,6 +40,7 @@ button{
   --main-color-button: #cccf18;
   --main-copacity-button-disabled: 57%;
   --main-font: "Saira Stencil One", sans-serif;
+  --secondary-font: "Roboto";
   --background-color: #1e1e1e;
 }
 
