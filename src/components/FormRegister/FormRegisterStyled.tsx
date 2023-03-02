@@ -19,7 +19,7 @@ const FormRegisterStyled = styled.form`
       height: 2.5rem;
       border-radius: 8px;
       border: 1px solid #fff;
-      color: #fff;
+      color: var(--main-color-text);
 
       ::placeholder {
         color: #000;
@@ -29,7 +29,7 @@ const FormRegisterStyled = styled.form`
     &__text {
       font-weight: 700;
       font-size: 16px;
-      color: #fff;
+      color: var(--main-color-text);
     }
   }
 `;

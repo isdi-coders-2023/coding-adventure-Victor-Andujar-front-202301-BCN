@@ -5,7 +5,11 @@ const FormRegister = (): JSX.Element => {
   return (
     <FormRegisterStyled className="register-form">
       <div className="register-form__section">
-        <label htmlFor="Email" className="register-form__text">
+        <label
+          htmlFor="Email"
+          className="register-form__text"
+          aria-label="Email"
+        >
           Email
         </label>
         <input
@@ -17,7 +21,11 @@ const FormRegister = (): JSX.Element => {
         />
       </div>
       <div className="register-form__section">
-        <label htmlFor="Password" className="register-form__text">
+        <label
+          htmlFor="Password"
+          className="register-form__text"
+          aria-label="Password"
+        >
           Password
         </label>
         <input
@@ -29,7 +37,11 @@ const FormRegister = (): JSX.Element => {
         />
       </div>
       <div className="register-form__section">
-        <label htmlFor="Image" className="register-form__text">
+        <label
+          htmlFor="Image"
+          className="register-form__text"
+          aria-label="Profile image"
+        >
           Image
         </label>
         <input
