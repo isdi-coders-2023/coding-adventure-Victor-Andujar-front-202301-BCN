@@ -38,10 +38,11 @@ button{
 
 :root {
   --main-color-button: #cccf18;
+  --main-color-text: #fff;
+  --background-color: #1e1e1e;
   --main-copacity-button-disabled: 57%;
   --main-font: "Saira Stencil One", sans-serif;
   --secondary-font: "Roboto";
-  --background-color: #1e1e1e;
 }
 
 a, :visited, :active{
